@@ -55,10 +55,15 @@ export const createHome = (() => {
     "<p>“I came here during the day so I can imagine how romantic it feels during the evening. The decor simply stunning.”</p>" +
     "</div>" +
     "<div class='col-lg-5 col-md-12 col-sm-12 col-xs-12'><img src='../src/images/dish.jpeg' alt='' /></div>";
-
+  /*FOOTER*/
+  let footer = document.createElement("footer");
+  footer.classList.add("row");
+  footer.textContent =
+    "Created by Julian Belmonte | @copyright - All rights reserved";
   return {
     header,
     slide,
     section,
+    footer,
   };
 })();

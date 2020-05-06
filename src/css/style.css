@@ -133,6 +133,17 @@ section {
   width: 100%;
 }
 
+/****************FOOTER*****************/
+footer {
+  background: #c70039;
+  color: white;
+  height: 150px;
+  margin: auto;
+  padding-top: 66px;
+  text-align: center;
+}
+/****************END FOOTER*****************/
+
 /***************RESPONSIVE******************/
 
 /*LARGE (lg) from 1200px */
