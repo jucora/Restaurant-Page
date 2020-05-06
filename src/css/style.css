@@ -65,6 +65,50 @@ header nav ul li a {
 }
 /****************END HEADER*****************/
 
+/****************SLIDE*****************/
+.slide {
+  height: 800px;
+  margin: auto;
+}
+#slide1 {
+  text-align: center;
+  background: url(../images/couple.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  align-items: flex-end;
+}
+.slide h3 {
+  color: white;
+  font-family: Cambria;
+  font-size: 37px;
+  height: 40px;
+}
+
+.slide p {
+  color: white;
+  font-size: 24px;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+.slide button {
+  background: #c70039;
+  border-radius: 10px;
+  border-width: 0;
+  color: white;
+  font-family: Arial;
+  font-size: 28px;
+  height: 55px;
+  padding: 5px 20px;
+}
+.slide button:hover {
+  cursor: pointer;
+}
+
+/****************END SLIDE*****************/
+
 /***************RESPONSIVE******************/
 
 /*LARGE (lg) from 1200px */
