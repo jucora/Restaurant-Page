@@ -2,7 +2,9 @@ export const createHeader = (() => {
   let header = document.createElement("header");
   header.classList.add("row");
   let divLogo = document.createElement("div");
+  divLogo.setAttribute("id", "logo");
   divLogo.classList.add("col-lg-8", "col-md-8", "col-sm-12", "col-xs-12");
+  divLogo.textContent = "Love Restaurant";
   header.appendChild(divLogo);
   let nav = document.createElement("nav");
   let ul = document.createElement("ul");
