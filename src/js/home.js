@@ -15,7 +15,6 @@ export const createHome = (() => {
     let li = document.createElement("li");
     li.classList.add("col-lg-1", "col-md-1", "col-sm-4", "col-xs-12");
     let a = document.createElement("a");
-    a.setAttribute("href", links[i]);
     a.textContent = linksValues[i];
     li.setAttribute("id", linksValues[i]);
     li.appendChild(a);
@@ -25,7 +24,7 @@ export const createHome = (() => {
   header.appendChild(nav);
 
   /*HOME CONTENT*/
-  /* SLIDE */
+  /* SLIDE 1*/
   const slide = document.createElement("div");
   slide.classList.add("slide", "row");
   slide.setAttribute("id", "slide1");

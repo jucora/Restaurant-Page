@@ -1,4 +1,5 @@
-import { createHome } from "./modules/home";
+import { createHome } from "./js/home";
+import { createMenu } from "./js/menu";
 require("./css/style.css");
 
 document.addEventListener(
@@ -8,3 +9,5 @@ document.addEventListener(
   document.getElementById("content").appendChild(createHome.section),
   document.getElementById("content").appendChild(createHome.footer)
 );
+
+document.querySelector("#Menu").addEventListener("click", createMenu);
