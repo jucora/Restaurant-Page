@@ -25,7 +25,7 @@ export const createHome = (() => {
   header.appendChild(nav);
 
   /*HOME CONTENT*/
-
+  /* SLIDE */
   const slide = document.createElement("div");
   slide.classList.add("slide", "row");
   slide.setAttribute("id", "slide1");
@@ -38,59 +38,27 @@ export const createHome = (() => {
     "<br />" +
     "<button>Contact us!</button>";
   slide.appendChild(slideCol);
+
+  /*SECTION1*/
+  let section = document.createElement("section");
+  section.setAttribute("id", "section1");
+  section.classList.add("row");
+  section.innerHTML =
+    "<div class='col-lg-7 col-md-12 col-sm-12 col-xs-12'>" +
+    "<br />" +
+    "<h2>A very special place!</h2>" +
+    "<br />" +
+    "<p>Discover Delicious Greek Dishes and Desserts</p>" +
+    " <br /><br />" +
+    "<p>“...once you walk in past the mouth watering pastries you'll find yourself thinking you've teleported to a Greek island!”</p>" +
+    "<br />" +
+    "<p>“I came here during the day so I can imagine how romantic it feels during the evening. The decor simply stunning.”</p>" +
+    "</div>" +
+    "<div class='col-lg-5 col-md-12 col-sm-12 col-xs-12'><img src='../src/images/dish.jpeg' alt='' /></div>";
+
   return {
     header,
     slide,
+    section,
   };
 })();
-
-// <!--SLIDE-->
-
-// <div class="slide row" id="slide1">
-//   <div class="col-lg-12">
-//     <h3>The Best Tasting Experience</h3>
-//     <br />
-//     <p>
-//       Lorem Ipsum has been the industry's standard dummy text ever since
-//       the 1500s, when an unknown printer took a galley of type and
-//       scrambled it to make a type specimen book.
-//     </p>
-//     <br />
-//     <button>Contact us!</button>
-//   </div>
-// </div>
-
-// <!--END SLIDE-->
-
-// <!--SECTION-->
-// <section id="section1" class="row">
-//   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-//     <path
-//       fill="#c70039"
-//       fill-opacity="1"
-//       d="M0,256L80,218.7C160,181,320,107,480,112C640,117,800,203,960,213.3C1120,224,1280,160,1360,128L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"
-//     ></path>
-//   </svg>
-//   <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
-//     <br />
-//     <h2>A very special place!</h2>
-//     <br />
-//     <p>
-//       Discover Delicious Greek Dishes and Desserts
-//     </p>
-//     <br /><br />
-//     <p>
-//       “...once you walk in past the mouth watering pastries you'll find
-//       yourself thinking you've teleported to a Greek island!”
-//     </p>
-//     <br />
-//     <p>
-//       “I came here during the day so I can imagine how romantic it feels
-//       during the evening. The decor simply stunning.”
-//     </p>
-//   </div>
-//   <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-//     <img src="images/dish.jpeg" alt="" />
-//   </div>
-// </section>
-// <!--END SECTION-->

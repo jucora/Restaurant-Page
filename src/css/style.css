@@ -109,6 +109,30 @@ header nav ul li a {
 
 /****************END SLIDE*****************/
 
+/****************SECTION 1*****************/
+section {
+  background: #511845;
+  margin: auto;
+}
+
+#section1 h2 {
+  color: white;
+  font-family: Cambria;
+  font-size: 37px;
+  text-align: center;
+}
+
+#section1 p {
+  color: white;
+  font-family: arial;
+  font-size: 24px;
+  text-align: center;
+}
+
+#section1 div img {
+  width: 100%;
+}
+
 /***************RESPONSIVE******************/
 
 /*LARGE (lg) from 1200px */
