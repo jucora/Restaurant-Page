@@ -64,10 +64,17 @@ export const createMenu = () => {
     "<li>$10.00</li>" +
     "<li>Sheet Pan Apple Crisp</li>" +
     "<li>$20.00</li>" +
-    "<li>Apple Pie by Grandma Ople</li>";
-  ("<li>$15.00</li>");
-  ("<li>Chantal's New York Cheesecake</li>");
-  "<li>$30.00</li>" + "</ul>" + "</div>" + "</article>";
-  document.getElementById("content").appendChild(slide);
-  document.getElementById("content").appendChild(section);
+    "<li>Apple Pie by Grandma Ople</li>" +
+    "<li>$15.00</li>" +
+    "<li>Chantal's New York Cheesecake</li>" +
+    "<li>$30.00</li>" +
+    "</ul>" +
+    "</div>" +
+    "</article>";
+  document
+    .getElementById("content")
+    .children[0].insertAdjacentElement("afterEnd", slide);
+  document
+    .getElementById("content")
+    .children[1].insertAdjacentElement("afterEnd", section);
 };

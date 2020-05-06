@@ -79,6 +79,15 @@ header nav ul li a {
   align-items: center;
   align-items: flex-end;
 }
+#slide2 {
+  background: url(../images/chef.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  align-items: flex-end;
+  text-align: center;
+}
 .slide h3 {
   color: white;
   font-family: Cambria;
@@ -131,6 +140,49 @@ section {
 
 #section1 div img {
   width: 100%;
+}
+
+#section2 article {
+  border: 1px solid black;
+  background-color: #900c3f;
+  border-radius: 10px 10px 0 0;
+  color: white;
+  min-height: 900px;
+
+  transition: background-color 0.3s ease-in-out;
+}
+#section2 article:hover {
+  background-color: black;
+}
+#section2 article h2 {
+  text-align: center;
+  font-family: Cambria;
+  font-size: 37px;
+  margin-top: 22px;
+}
+#section2 article img {
+  border-radius: 25%;
+  width: 100%;
+}
+.itemsPrices {
+  text-align: center;
+}
+.items {
+  font-family: tahoma;
+  font-size: 17px;
+}
+.items li {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.prices {
+  float: left;
+  font-family: tahoma;
+  font-size: 17px;
+}
+.prices li {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 /****************FOOTER*****************/
