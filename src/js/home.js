@@ -9,13 +9,10 @@ const createHome = (() => {
     let h3 = document.createElement("h3");
     h3.textContent = "The Best Tasting Experience";
     slideCol.appendChild(h3);
-    // let br = document.createElement("br");
-    // slideCol.appendChild(br);
     slideCol.innerHTML += "<br>";
     let p = document.createElement("p");
     p.textContent =
       "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.";
-    // slideCol.appendChild(br);
     slideCol.appendChild(p);
     slideCol.innerHTML += "<br>";
     let button = document.createElement("button");
