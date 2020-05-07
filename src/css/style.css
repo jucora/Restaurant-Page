@@ -53,6 +53,8 @@ header nav ul li {
   font-size: 28px;
   margin-top: 10px;
   padding: 0 20px;
+  color: #ff5733;
+  text-decoration: none;
 }
 header nav ul li:hover {
   cursor: pointer;
@@ -60,8 +62,6 @@ header nav ul li:hover {
 }
 
 header nav ul li a {
-  color: #ff5733;
-  text-decoration: none;
 }
 /****************END HEADER*****************/
 

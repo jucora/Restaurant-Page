@@ -1,29 +1,10 @@
-export const createHome = (() => {
-  /* HEADER */
-  let header = document.createElement("header");
-  header.classList.add("row");
-  let divLogo = document.createElement("div");
-  divLogo.setAttribute("id", "logo");
-  divLogo.classList.add("col-lg-8", "col-md-8", "col-sm-12", "col-xs-12");
-  divLogo.textContent = "Love Restaurant";
-  header.appendChild(divLogo);
-  let nav = document.createElement("nav");
-  let ul = document.createElement("ul");
-  let links = ["index.html", "menu.html", "contact.html"];
-  let linksValues = ["Home", "Menu", "Contact"];
-  for (let i = 0; i <= links.length - 1; i += 1) {
-    let li = document.createElement("li");
-    li.classList.add("col-lg-1", "col-md-1", "col-sm-4", "col-xs-12");
-    let a = document.createElement("a");
-    a.textContent = linksValues[i];
-    li.setAttribute("id", linksValues[i]);
-    li.appendChild(a);
-    ul.appendChild(li);
-  }
-  nav.appendChild(ul);
-  header.appendChild(nav);
+import { removePage } from "./remove";
+import { createHeader } from "./header";
+import { createFooter } from "./footer";
 
-  /*HOME CONTENT*/
+export const createHome = () => {
+  removePage();
+  createHeader();
   /* SLIDE 1*/
   const slide = document.createElement("div");
   slide.classList.add("slide", "row");
@@ -54,15 +35,8 @@ export const createHome = (() => {
     "<p>“I came here during the day so I can imagine how romantic it feels during the evening. The decor simply stunning.”</p>" +
     "</div>" +
     "<div class='col-lg-5 col-md-12 col-sm-12 col-xs-12'><img src='../src/images/dish.jpeg' alt='' /></div>";
-  /*FOOTER*/
-  let footer = document.createElement("footer");
-  footer.classList.add("row");
-  footer.textContent =
-    "Created by Julian Belmonte | @copyright - All rights reserved";
-  return {
-    header,
-    slide,
-    section,
-    footer,
-  };
-})();
+
+  document.getElementById("content").appendChild(slide),
+    document.getElementById("content").appendChild(section);
+  createFooter();
+};

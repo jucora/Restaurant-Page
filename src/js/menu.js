@@ -1,8 +1,11 @@
 import { removePage } from "./remove";
+import { createHeader } from "./header";
+import { createFooter } from "./footer";
 
 export const createMenu = () => {
   removePage();
   /* SLIDE 2*/
+  createHeader();
   let slide = document.createElement("div");
   slide.classList.add("row", "slide");
   slide.setAttribute("id", "slide2");
@@ -71,10 +74,7 @@ export const createMenu = () => {
     "</ul>" +
     "</div>" +
     "</article>";
-  document
-    .getElementById("content")
-    .children[0].insertAdjacentElement("afterEnd", slide);
-  document
-    .getElementById("content")
-    .children[1].insertAdjacentElement("afterEnd", section);
+  document.getElementById("content").appendChild(slide);
+  document.getElementById("content").appendChild(section);
+  createFooter();
 };
