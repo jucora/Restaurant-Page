@@ -142,6 +142,7 @@ section {
   width: 100%;
 }
 
+/*SECTION 2*/
 #section2 article {
   border: 1px solid black;
   background-color: #900c3f;
@@ -183,6 +184,63 @@ section {
 .prices li {
   font-size: 24px;
   margin-bottom: 20px;
+}
+/*SECTION 3*/
+/*section 3*/
+
+#section3 {
+  min-height: 100vh;
+}
+
+#section3 article h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 40px;
+  margin: 20px;
+}
+#section3 aside {
+  margin-top: 60px;
+  -webkit-box-shadow: 20px 28px 20px 2px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 20px 28px 20px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: 20px 28px 20px 2px rgba(0, 0, 0, 0.7);
+
+  background: url(../images/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  padding: 10%;
+}
+#section3 aside#right h1 {
+  line-height: 50px;
+  text-align: center;
+  background: #900c3f;
+  color: white;
+  margin-bottom: 5px;
+}
+
+#section3 aside#right input {
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+#section3 aside#right input[type="text"] {
+  background: url(../images/user.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+#section3 aside#right input[type="email"] {
+  background: url(../images/email.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+
+#section3 aside#right input[type="submit"] {
+  background: #ff5733;
+  border: 0;
 }
 
 /****************FOOTER*****************/

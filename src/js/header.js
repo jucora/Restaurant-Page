@@ -1,5 +1,6 @@
 import { createHome } from "./home";
 import { createMenu } from "./menu";
+import { createContact } from "./contact";
 export const createHeader = () => {
   let header = document.createElement("header");
   header.classList.add("row");
@@ -15,4 +16,5 @@ export const createHeader = () => {
   document.getElementById("content").appendChild(header);
   document.querySelector("#home").addEventListener("click", createHome);
   document.querySelector("#menu").addEventListener("click", createMenu);
+  document.querySelector("#contact").addEventListener("click", createContact);
 };
