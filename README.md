@@ -1,4 +1,4 @@
-<h1 align="center">:video_game: Restaurant Page</h1>
+<h1 align="center">:fork_and_knife: Restaurant Page</h1>
 
 <p align="center">
   <img src="src/images/restaurant.png">
@@ -6,9 +6,9 @@
 
 ## :pencil: Description
 
-This project is a Tic Tac Toe game. This game contains the minimax algorithm so the player can compete with the computer. The minimax algorithm makes the computer smart so everytime a user select a cell in the game, the computer will answer with the best move always so the computer never loses. In game theory, minimax is a decision method to minimize the maximum expected loss in games with an opponent and with perfect information. Minimax is a recursive algorithm. User can also play with another user This project is part of the Microverse main curriculum.
+This project consists of the development of a website for a restaurant through the use of modules and the DOM manipulation. Webpack was also used to manage content such as images, CSS styles and Javascript code. The objective of this project was to generate everything using Javascript code, without adding html tags directly within the file.
 
-# :globe_with_meridians: [Live Version](https://jucora.github.io/tic-tac-toe-Javascript/):point_left:
+I want to highlight that I made my own responsive system, so that the application works with a unique grid system created by me, there is no use of external frameworks.
 
 ## :heavy_check_mark: Odin Projet Link
 
