@@ -1,38 +1,43 @@
-import createHeader from './js/header';
-import createHome from './js/home';
-import createMenu from './js/menu';
-import createContact from './js/contact';
-import createFooter from './js/footer';
+import header from './js/header';
+import home from './js/home';
+import menu from './js/menu';
+import contact from './js/contact';
+import footer from './js/footer';
 
 require('./css/style.css');
 
+const content = document.querySelector('#content');
 const createPage = (page) => {
-  document.querySelector('#content').innerHTML = '';
-  createHeader.header();
+  content.innerHTML = '';
+  content.appendChild(header());
   switch (page) {
     case 'home':
-      createHome.home();
+      home().forEach((el) => {
+        content.appendChild(el);
+      });
       break;
     case 'menu':
-      createMenu.menu();
+      menu().forEach((el) => {
+        content.appendChild(el);
+      });
       break;
     case 'contact':
-      createContact.contact();
+      content.appendChild(contact());
       break;
     default:
       break;
   }
-  createFooter.footer();
+  content.appendChild(footer());
   document.getElementById('home').addEventListener('click', () => {
     createPage('home');
   });
   document.getElementById('menu').addEventListener('click', () => {
     createPage('menu');
+    document.querySelector('#contactButton').addEventListener('click', () => {
+      createPage('contact');
+    });
   });
   document.getElementById('contact').addEventListener('click', () => {
-    createPage('contact');
-  });
-  document.querySelector('#contactButton').addEventListener('click', () => {
     createPage('contact');
   });
 };
