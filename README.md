@@ -1,4 +1,4 @@
-<h1 align="center">:fork_and_knife: Restaurant Page</h1>
+<h1 align="center">:fork_and_knife: Restaurant Page Project</h1>
 
 <p align="center">
   <img src="src/images/restaurant.png">
@@ -34,3 +34,4 @@ I want to highlight that I made my own responsive system, so that the applicatio
 - Github: [@jucora](https://github.com/jucora)
 - Twitter: [@Julian Belmonte](twitter.com/JulianBelmonte)
 - Linkedin: [Julian Belmonte](linkedin.com/in/julianbel)
+- Blog: [Medium](https://medium.com/@artjulius)
