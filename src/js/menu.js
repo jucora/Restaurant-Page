@@ -62,7 +62,7 @@ const menu = () => {
   article2.appendChild(title2);
   article2.innerHTML += '<br>';
   const img2 = document.createElement('img');
-  img2.setAttribute('src', '../src/images/main.jpeg');
+  img2.setAttribute('src', '../src/images/main.JPEG');
   img2.setAttribute('alt', 'main dishes image');
   article2.appendChild(img2);
   const row2 = document.createElement('div');
