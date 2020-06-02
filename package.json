@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/jucora/Restaurant-Page/issues"
   },
-  "homepage": "https://github.com/jucora/Restaurant-Page#readme",
+  "homepage": "https://jucora.github.io/Restaurant-Page",
   "devDependencies": {
     "css-loader": "^3.5.3",
     "eslint": "^6.8.0",
