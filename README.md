@@ -10,9 +10,7 @@ This project consists of the development of a website for a restaurant through t
 
 I want to highlight that I made my own responsive system, so that the application works with a unique grid system created by me, there is no use of external frameworks.
 
-## :heavy_check_mark: Odin Projet Link
-
-[Restaurant Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
+# :globe_with_meridians: [Live Demo](https://raw.githack.com/jucora/Restaurant-Page/master/dist/index.html):point_left:
 
 ## :point_right: Functionalities
 
@@ -26,6 +24,10 @@ I want to highlight that I made my own responsive system, so that the applicatio
 - CSS
 - Javascript
 - Photoshop
+
+## :heavy_check_mark: Odin Projet Link
+
+[Restaurant Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
 
 ## Author
 
