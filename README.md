@@ -6,9 +6,9 @@
 
 ## :pencil: Description
 
-This project consists of the development of a website for a restaurant through the use of modules and the DOM manipulation. Webpack was also used to manage content such as images, CSS styles and Javascript code. The objective of this project was to generate everything using Javascript code, without adding html tags directly within the file.
+This project consists of the development of a website for a restaurant through the use of modules and DOM manipulation. Webpack was also used to manage content such as images, CSS styles, and Javascript code. The objective of this project was to generate everything using Javascript code, without adding HTML tags directly within the file.
 
-I want to highlight that I made my own responsive system, so that the application works with a unique grid system created by me, there is no use of external frameworks.
+I want to highlight that I made my responsive system so that the application works with a unique grid system created by me, there is no use of external frameworks.
 
 # :globe_with_meridians: [Live Demo](https://raw.githack.com/jucora/Restaurant-Page/master/dist/index.html):point_left:
 
