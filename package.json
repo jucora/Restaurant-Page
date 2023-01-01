@@ -21,14 +21,14 @@
     "url": "https://github.com/jucora/Restaurant-Page/issues"
   },
   "devDependencies": {
-    "css-loader": "^3.5.3",
+    "css-loader": "^6.7.3",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "file-loader": "^6.0.0",
     "style-loader": "^1.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "homepage": "https://jucora.github.io/restaurantpage",
   "dependencies": {
